@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity implements LocationContract.
     }
 
     @Override
-    public void setMessage(Location message) {
+    public void setLocation(Location message) {
         txtLat.setText(message.getLatitude() + "");
         txtLog.setText(message.getLongitude() + "");
     }

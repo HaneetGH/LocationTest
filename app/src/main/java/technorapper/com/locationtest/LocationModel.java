@@ -29,7 +29,7 @@ public class LocationModel {
         listener = new LocationListener() {
             @Override
             public void onLocationChanged(Location location) {
-                mView.setMessage(location);
+                mView.setLocation(location);
                 //  Toast.makeText(context, "here", Toast.LENGTH_LONG).show();
             }
 

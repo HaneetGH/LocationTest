@@ -29,7 +29,7 @@ public class LocationPresenter implements LocationContract.Presenter {
     @Override
     public void bind() {
         mModel = new LocationModel(mView, context);
-        mView.setMessage(mModel.generateLocation());
+        mView.setLocation(mModel.generateLocation());
 
     }
 

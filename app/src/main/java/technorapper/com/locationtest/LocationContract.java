@@ -7,7 +7,7 @@ import android.location.Location;
  */
 public interface LocationContract {
     interface View {
-        void setMessage(Location message);
+        void setLocation(Location message);
     }
 
     interface Presenter {
